@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Momentorm</title>
+    <link href="index.css" rel="stylesheet" />
+    <meta name="viewport" content="" />
+</head>
+<body>
+<h1>바닐라 자바스크립트로 시계만들기</h1>
+<div>
+        <span class="clock-container">
+            <span class="js-clock"><h1>00:00</h1></span>
+        </span>
+    <span class="greetings-container">
+            <span class="js-greetings">Wellcome! </span>
+        </span>
+    <span class="userName-container">
+                <span class="js-userName"></span>
+        </span>
+    <form role="form" class="js-clockForm">
+            <span class="userName-input-container hidden">
+                <input type="text" name="userName"  placeholder="what is your name?"/>
+            </span>
+    </form>
+
+    <form role="form" class="js-toDolistForm">
+        <label for="js-toDoInput">오늘의 관심사는 무엇이야?
+            <input type="text" name="toDo" id='js-toDoInput' />
+        </label>
+    </form>
+    <ul class="js-toDoList">
+
+    </ul>
+
+
+    <span class="js-weather-container">
+            <span id="city"></span>
+            <span id="temperate"></span>
+        </span>
+
+</div>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+    <script src="todo-list.js"></script>
+</body>
+</html>
